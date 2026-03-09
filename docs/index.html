@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>PvZ2 Gardendless Online | 0.6.6</title>
+  <title>PvZ2 Gardendless Online | 0.7.1</title>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -35,35 +35,35 @@
   <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
   <link rel="stylesheet" type="text/css" href="style.css" />
-  
+
   <script>
-    (function() {
+    (function () {
       const isGitHubPages = window.location.hostname === 'play.pvzge.com';
-      
+
       if (isGitHubPages) {
         // 加载 Google Analytics
         const gtagScript = document.createElement('script');
         gtagScript.async = true;
         gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-FNC28KV0ZR';
         document.head.appendChild(gtagScript);
-        
+
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-FNC28KV0ZR');
-        
+
         const adsenseScript = document.createElement('script');
         adsenseScript.async = true;
         adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7637695321442015';
         adsenseScript.crossOrigin = 'anonymous';
         document.head.appendChild(adsenseScript);
-        
+
         const fundingScript = document.createElement('script');
         fundingScript.async = true;
         fundingScript.src = 'https://fundingchoicesmessages.google.com/i/pub-7637695321442015?ers=1';
         document.head.appendChild(fundingScript);
-        
-        (function() {
+
+        (function () {
           function signalGooglefcPresent() {
             if (!window.frames['googlefcPresent']) {
               if (document.body) {
